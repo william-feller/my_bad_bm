@@ -305,6 +305,11 @@ public class DiskWorker extends SwingWorker<Boolean, DiskMark> {
     }
 
 
+    /**
+     * Called when doInBackGround method of SwingWorker successfully or unsuccessfully finishes or is aborted.
+     * This method is called by Swing and has access to the get method within it's scope, which returns the computed
+     * result of the doInBackground method.
+     */
     @Override
     protected void done() {
         // Obtain final status, might from doInBackground ret value, or SwingWorker error
