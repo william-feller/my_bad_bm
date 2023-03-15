@@ -83,8 +83,9 @@ public class App {
     }
 
     /**
-     * Gets the version from the build properties. Defaults to 0.0 if not found.
-     * @return a String that holds the current version number or "0.0" if none was found.
+     * Get the version from the build properties. Defaults to 0.0 if not found.
+     *
+     * @return a String set to the proper version number
      */
     public static String getVersion() {
         Properties bp = new Properties();
@@ -342,8 +343,8 @@ public class App {
     }
 
     /**
-     * Uses a {@link DiskMark} object to update the metrics of the current run during a benchmark.
-     * @param mark a DiskMark object that will be used to update metrics.
+     * Uses a DiskMark {@link DiskMark} Object to update the metrics of the App while it is running
+     * @param mark- A DiskMark Object which swill be used to update the Metric
      */
     public static void updateMetrics(DiskMark mark) {
         if (mark.type == DiskMark.MarkType.WRITE) {
