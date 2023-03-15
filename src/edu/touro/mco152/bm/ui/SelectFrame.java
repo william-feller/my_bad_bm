@@ -5,7 +5,7 @@ import edu.touro.mco152.bm.App;
 import java.io.File;
 
 /**
- *
+ * Creates a dialog box that lets a user choose where to store data about previous benchmarks.
  */
 public class SelectFrame extends javax.swing.JFrame {
 
