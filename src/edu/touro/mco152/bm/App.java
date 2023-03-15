@@ -16,10 +16,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * The Primary static class - meaning all of its data fields and methods are static.
- * It contains the main method and the initializer for the BenchMark in the {@code startBenchMark()} method .
- * It also contains the option and run configuration global variables and common use methods, like save and load .
- *
+ * Contains the main runnable method of the program.
+ * Primary holder of global variables.
+ * Responsible for changing properties configurations.
+ * Initiates the custom Swing benchmark handling class. {@link DiskWorker}
  */
 public class App {
 
@@ -246,6 +246,9 @@ public class App {
         worker.cancel(true);
     }
 
+    /**
+     * Handles benchmark and GUI configuration/management when a benchmark is started.
+     */
     public static void startBenchmark() {
 
         //1. check that there isn't already a worker in progress
@@ -340,7 +343,7 @@ public class App {
     }
 
     /**
-     * Uses a DiskMark Object to update the metrics of the App while it is running
+     * Uses a DiskMark {@link DiskMark} Object to update the metrics of the App while it is running
      * @param mark- A DiskMark Object which swill be used to update the Metric
      */
     public static void updateMetrics(DiskMark mark) {
