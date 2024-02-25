@@ -1,8 +1,8 @@
 package src.edu.touro.mco152.bm;
 
-import edu.touro.mco152.bm.persist.DiskRun;
-import edu.touro.mco152.bm.persist.EM;
-import edu.touro.mco152.bm.ui.Gui;
+import src.edu.touro.mco152.bm.persist.DiskRun;
+import src.edu.touro.mco152.bm.persist.EM;
+import src.edu.touro.mco152.bm.ui.Gui;
 
 import jakarta.persistence.EntityManager;
 import javax.swing.*;
@@ -15,9 +15,9 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import static edu.touro.mco152.bm.App.*;
-import static edu.touro.mco152.bm.DiskMark.MarkType.READ;
-import static edu.touro.mco152.bm.DiskMark.MarkType.WRITE;
+import static src.edu.touro.mco152.bm.App.*;
+import static src.edu.touro.mco152.bm.DiskMark.MarkType.READ;
+import static src.edu.touro.mco152.bm.DiskMark.MarkType.WRITE;
 
 /**
  * Run the disk benchmarking exclusively as a Swing-compliant thread (only one of these threads can run at

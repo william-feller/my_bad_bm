@@ -76,7 +76,7 @@ public final class MainFrame extends javax.swing.JFrame {
     private javax.swing.JLabel rMinLabel;
     private javax.swing.JButton resetButton;
     private javax.swing.JMenuItem resetSequenceMenuItem;
-    private edu.touro.mco152.bm.ui.RunPanel runPanel;
+    private src.edu.touro.mco152.bm.ui.RunPanel runPanel;
     private javax.swing.JCheckBoxMenuItem showMaxMinCheckBoxMenuItem;
     private javax.swing.JButton startButton;
     private javax.swing.JTabbedPane tabbedPane;
@@ -188,7 +188,7 @@ public final class MainFrame extends javax.swing.JFrame {
         rMaxLabel = new javax.swing.JLabel();
         rAvgLabel = new javax.swing.JLabel();
         tabbedPane = new javax.swing.JTabbedPane();
-        runPanel = new edu.touro.mco152.bm.ui.RunPanel();
+        runPanel = new src.edu.touro.mco152.bm.ui.RunPanel();
         eventScrollPane = new javax.swing.JScrollPane();
         msgTextArea = new javax.swing.JTextArea();
         locationPanel = new javax.swing.JPanel();
