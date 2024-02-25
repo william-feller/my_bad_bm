@@ -3,4 +3,4 @@
  * data for component statistical data. In return, the user can gather technical information
  * about the machine being tested.
  */
-package edu.touro.mco152.bm.persist;
+package src.edu.touro.mco152.bm.persist;

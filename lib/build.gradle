@@ -11,6 +11,12 @@ plugins {
     id 'java-library'
 }
 
+sourceSets{
+    // Make sure gradle (also) places resource files where IntelliJ wants them
+    sourceSets.main.output.resourcesDir = sourceSets.main.output.classesDirs.asPath
+    compileJava.dependsOn(processResources)
+}
+
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()

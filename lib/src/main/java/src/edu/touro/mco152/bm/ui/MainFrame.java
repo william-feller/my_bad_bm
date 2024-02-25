@@ -1,9 +1,9 @@
-package edu.touro.mco152.bm.ui;
+package src.edu.touro.mco152.bm.ui;
 
-import edu.touro.mco152.bm.App;
-import edu.touro.mco152.bm.Util;
-import edu.touro.mco152.bm.persist.DiskRun;
-import edu.touro.mco152.bm.persist.DiskRun.BlockSequence;
+import src.edu.touro.mco152.bm.App;
+import src.edu.touro.mco152.bm.Util;
+import src.edu.touro.mco152.bm.persist.DiskRun;
+import src.edu.touro.mco152.bm.persist.DiskRun.BlockSequence;
 import org.jfree.chart.ChartPanel;
 
 import javax.swing.*;
@@ -14,7 +14,7 @@ import java.text.DecimalFormat;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import static edu.touro.mco152.bm.App.dataDir;
+import static src.edu.touro.mco152.bm.App.dataDir;
 import static java.awt.Font.PLAIN;
 
 /**

@@ -1,4 +1,4 @@
-package edu.touro.mco152.bm.persist;
+package src.edu.touro.mco152.bm.persist;
 
 import jakarta.persistence.*;
 import java.io.Serial;
