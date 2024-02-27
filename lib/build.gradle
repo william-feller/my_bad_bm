@@ -50,9 +50,9 @@ jar {
 
 tasks.register('customFatJar', Jar) {
     manifest {
-        attributes 'Main-Class': 'App.java'
+        attributes 'Main-Class': 'src.edu.touro.mco152.bm.App'
     }
-    archiveBaseName = 'all-in-one-jar'
+    archiveBaseName = 'badbm'
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
     with jar
