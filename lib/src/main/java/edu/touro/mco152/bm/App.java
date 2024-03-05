@@ -1,9 +1,9 @@
-package src.edu.touro.mco152.bm;
+package edu.touro.mco152.bm;
 
-import src.edu.touro.mco152.bm.persist.DiskRun;
-import src.edu.touro.mco152.bm.ui.Gui;
-import src.edu.touro.mco152.bm.ui.MainFrame;
-import src.edu.touro.mco152.bm.ui.SelectFrame;
+import edu.touro.mco152.bm.persist.DiskRun;
+import edu.touro.mco152.bm.ui.Gui;
+import edu.touro.mco152.bm.ui.MainFrame;
+import edu.touro.mco152.bm.ui.SelectFrame;
 
 import javax.swing.SwingWorker.StateValue;
 import javax.swing.*;

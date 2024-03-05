@@ -8,4 +8,4 @@
  * The {@code DiskWorker} class is dependent on the {@code GUI} class in this package
  * The {@code GUI} class is generated in the {@code App} class, and the {@code App} class too, is coupled with {@code GUI} class.
  */
-package src.edu.touro.mco152.bm.ui;
+package edu.touro.mco152.bm.ui;
